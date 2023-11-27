@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap');
+
+/*mobile version */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.main{
+    text-align: center;
+}
+
+.logo{
+    width: 80px;
+    height: 24px;
+}
+header{
+    margin:29px 24px 103px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons{
+    font-family: "Raleway";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color:#07043B;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+
+.middle-text{
+    padding-right:24px;
+    padding-left:24px;
+}
+
+.top{
+    margin:0 30px 90px 30px;
+}
+.ill-first{
+    width:304px;
+    height:225px;
+    margin-bottom:40px;
+}
+h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #07043B;
+    margin-bottom:24px;
+}
+
+.files-text{
+    color: #07043B;
+    margin-bottom:32px;
+}
+
+
+
+.input-1{
+    height: 40px;
+    width: 304px;
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-bottom:16px;
+
+
+
+}
+.first-input:invalid {
+    border: 0.625px solid #EF4877;
+}
+
+.form-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.check-text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.button-1{
+    border-radius: 1.5px;
+    background: #2F65F8;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    color:#ffff;
+    height: 40px;
+    width: 304px;
+}
+.button-1:hover{
+    background-color: #6C9BFF;
+    cursor: pointer;
+}
+
+ 
+
+
+.curve-photo{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.middle{
+    background: #F8F8FE;
+    min-height: 820px
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ill-two{
+    width:320px;
+    height:241px;
+    margin-bottom:87px;
+}
+
+.middle-header{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom:24px;
+}
+.middle-first-text{
+    color: #615F7E;
+    margin-bottom:16px;
+    max-width: 336px;
+}
+.middle-second-text{
+    color: #615F7E;
+    margin-bottom:36px;
+    max-width: 330px;
+}
+
+.green-btn{
+    color: #3DA08F;
+    border-style: hidden;
+    background-color: #F8F8FE;
+    border-bottom: 1px solid #3DA08F;
+    font-family: Open Sans;
+    font-size: 12px;
+    padding: 6px;
+    margin-bottom:40px;
+}
+.green-btn:hover{
+    color:#71DFCC;
+    border-color: #71DFCC;
+}
+
+.icon-container{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 4px;
+    height: 170px;
+    width: 280px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 13%;
+}
+
+.fylo-text{
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top:8px;
+    padding-bottom:9px;
+}
+
+.avatar{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+.burton-name{
+    font-family: Open Sans;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+}
+
+.status{
+    font-family: Open Sans;
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    padding-top: 2px;
+}
+
+.testimonial-div{
+    display: flex;
+}
+.credentials{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+}
+
+.bottom{
+    background: #575988;
+    padding:54px 47px 71px 47px;
+}
+h3{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+
+.bottom-text {
+    color:#FFFFFF;
+    padding-left:27px;
+    margin-bottom: 24px;
+}
+    
+
+.input-2{
+    height: 32px;
+    border-radius: 1.5px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.5px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-bottom: 8px
+}
+
+.button-2{
+    background-color:#2F65F8;
+    color: #F8F8FE;
+    border-radius: 1.5px;
+    height: 32px;
+    width: 240px;
+}
+.button-2:hover{
+    cursor: pointer;
+    background-color: #6C9BFF;
+
+
+}
+
+/* footer______ssx */
+
+footer{
+    background-color: #07043B;
+    text-align: start;
+    padding:65px 39px 42px;
+}
+.footers-first{
+    margin-bottom: 32px;
+}
+.phone-logo{
+    padding-right:19px;
+}
+
+.email-logo{
+    padding-right:19px;
+}
+
+.phone-number{
+    margin-bottom:16px;
+    color:white;
+}
+footer span{
+    color:white;
+    height: 24px;
+    width: 182px;
+}
+.footers-second{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom:32px;
+}
+.footers-third{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom:32px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    text-align: center;
+}
+/* social media */
+.fa {
+    color:white;
+    border-radius:50%;
+    border: 0.8px solid;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.social-media i{
+    width: 31.22px;
+    height: 31px;
+    font-size: 17px;
+}
+.social-media i:hover{
+    color: #6C9BFF;
+}
+
+.input-2:invalid {
+    border: 0.625px solid #EF4877;
+}
+footer span:hover {
+    color:#6C9BFF;
+}
+
+/*desctop*/
+
+@media (min-width: 1440px){
+    header{
+        margin: 66px 80px 97px;
+    }
+    .logo{
+        width:166px;
+        height:49px;
+    }
+    .form-1{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .form-2{
+        text-align: left;
+    }
+    .buttons{
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+    .top{
+        margin: 0 80px 164px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items:center;
+        text-align: start;
+    }
+    .ill-first{
+        width:640px;
+        height:474px;
+    }
+
+    h1{
+        font-family: 'Raleway';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    .input-1{
+        height: 45px;
+        width: 320px;
+        font-size: 14px;
+        line-height: 19px;
+    
+    }
+    .middle{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        min-height: 665px;
+    }
+    .ill-two{
+        width:542px;
+        height:409px;
+    }
+    .middle-header{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .green-btn{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom:50px;
+    }
+    .middle-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .icon-container{
+        width: 356px;
+        height: 215px;
+        border-radius:5px;
+        margin:0;
+    }
+    .fylo-text{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .avatar{
+        width:32px;
+        height:32px;
+    }
+    .burton-name{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .status{
+        font-size: 8px;
+        line-height: 15px;
+
+   }
+   .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 112px 120px 85px 80px;
+}
+    .bottom-second{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: start;
+}
+.bottom-text{
+    padding:0;
+    max-width: 543px;
+}
+.input-2{
+    height: 48px;
+    width: 480px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.button-2{
+    border-radius: 3.2px;
+    height: 45px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.bottom-second{    
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 93px 262px 86px 80px;
+}
+.fylo{
+    width: 135px;
+    height: 39px;
+    color: #F8F8FE;
+
+}
+.footers-first{
+    margin-top:80px;
+}
+.footers-second{
+    margin-top:170px;
+}
+.footers-third{
+    margin-top:170px;
+}
+.phone{
+    margin-top:37px;
+    margin-right: 100px;
+}
+.social-media{
+    margin-top: 170px;
+}
+}
